@@ -1,0 +1,67 @@
+
+.flex-box-container-1 {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding:5px;
+    /* border: 1px solid black; */
+}
+
+.container-2, .container-3, .container-4, .container-1, .container-5{
+border: 1px solid blue;
+width: 75%;
+margin: 0 auto;
+text-align:center;
+}
+
+.flex-box-container-2, .flex-box-rps, .flex-box-pick-color, 
+.flex-box-bj-row1, .flex-box-bj-row2 , .flex-box-bj-row3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.flex-box-bj-row1 , .flex-box-bj-row2{
+    background-image: url("C:/Users/KIIT/Desktop/casinobg.jpg") ;
+    background-position: bottom;
+    color: white;
+}
+
+.flex-box-bj-row1 div{
+    text-align: center;
+    height: 300px;
+    flex:1;
+}
+
+.flex-box-bj-row2 button{
+    border: 1px solid black;
+}
+
+.flex-box-bj-row2 div{
+    padding:2px;
+}
+
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-box-container-2 img{
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.7);
+    margin: 10px;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.7);
+}
+
+
